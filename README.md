@@ -1,6 +1,6 @@
 # purescript-marionette-commander
 
-`marionette-commander` is a [`marionette`](https://github.com/thought2/purescript-marionette) renderer for the command line.
+`marionette-commander` is a [`marionette`](https://github.com/thought2/purescript-marionette) renderer for interactive CLI programs.
 
 ## Documentation
 
