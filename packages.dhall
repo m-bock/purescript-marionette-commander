@@ -1,33 +1,5 @@
-
 let upstream =
-      https://github.com/purescript/package-sets/releases/download/psc-0.15.4-20230104/packages.dhall
-        sha256:b6975cf7851bd5c327d222378955984fa7ea057ba998bbda756b39c4c2eb3588
+      https://github.com/purescript/package-sets/releases/download/psc-0.15.4-20230105/packages.dhall
+        sha256:3e9fbc9ba03e9a1fcfd895f65e2d50ee2f5e86c4cd273f3d5c841b655a0e1bda
 
 in  upstream
-
-  with marionette =
-      { dependencies =
-        [ "aff"
-        , "arrays"
-        , "console"
-        , "datetime"
-        , "effect"
-        , "either"
-        , "enums"
-        , "foldable-traversable"
-        , "maybe"
-        , "newtype"
-        , "node-readline"
-        , "now"
-        , "ordered-collections"
-        , "prelude"
-        , "refs"
-        , "strings"
-        , "transformers"
-        , "tuples"
-        ]
-      , repo =
-          "https://github.com/thought2/purescript-marionette.git"
-      , version =
-          "v1.0.0"
-      }
